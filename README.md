@@ -10,14 +10,14 @@ Based on the case study, I will ask the following questions about to know more a
 4.	Was their cloud hosting model compliance with the business model?
 
 
-Certainly, here's a simplified RACI matrix for the migration stakeholders:				
-				
-Task	Migration Team	Data Owners	App Team	Project Manager
-Project planning	R	C	C	A
-Data extraction	R	A	I	I
-Data transformation	R	C	C	I
-Migration execution	R	C	C	A
-Data validation	R	A	R	I
+ RACI matrix for the migration stakeholders is:								
+Task	         Migration Team	  Data Owners	App Team   Project Manager
+Project planning	R	    C	          C	      A
+Data extraction	        R	    A	          I	      I
+Data transformation	R	    C	          C	      I
+Migration execution	R	    C	          C	      A
+Data validation	        R	    A	          R	      I
+
 
 Since the company have colocation hosting model where they have large amounts data of EHR platform, they can use the lift and shift migration. They can transfer the existing the coexisting applications to cloud platforms. Company has to plan the computing power, security, storage, network resources and other computing resources so that applications can run with full availability, scalability before shifting to cloud platforms.  This migration gives the same architecture previously the applications were running.
 
@@ -29,6 +29,7 @@ Here’s a high-level schedule for eClinicalWorks' migration process:
 •	Transfer the application and data with the Cloud platform support team.
 •	Perform performance, functionality, and security testing and address issues and optimize configurations.
 •	Regressive analyses of application performance in that platform.  
+
 
 The chosen cloud platform company should be able to handle the growing data and customer’s of eClinicalWorks. The cloud solution should be complaint with the HIPPA act along with the ability to scale along with robustness of the cloud security. It should be able to integrate the complex application architecture from the existing infrastructure. It should reduce the operational cost the infrastructure than the colocation infrastructure.
 
