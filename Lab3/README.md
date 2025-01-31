@@ -17,4 +17,6 @@ Web app connects to email service for order confirmations through API.
 
 
 ## Section 2: Migration Strategies
+Migration strategy plan for each component.
+Web application: Plan to migrate to PaaS (AWS Elastic Beanstalk)
 
