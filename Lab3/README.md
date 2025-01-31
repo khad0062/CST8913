@@ -10,3 +10,11 @@ On-premises solution design includes:
 4. Email Services: On-premises mail server (e.g., Postfix) for client notifications.
 5. Blackened database: Use of dedicated hardware for Microsoft SQL server.
 
+Dependencies:
+Web application connects database with SQL server to store, manage, and retrieve the data.
+Networking helps to connect and secure all the components in the on-premises architecture.
+Web app connects to email service for order confirmations through API.
+
+
+## Section 2: Migration Strategies
+
