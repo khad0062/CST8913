@@ -18,5 +18,26 @@ Web app connects to email service for order confirmations through API.
 
 ## Section 2: Migration Strategies
 Migration strategy plan for each component.
-Web application: Plan to migrate to PaaS (AWS Elastic Beanstalk)
+Web application Migration
+Plan to migrate to PaaS (AWS Elastic Beanstalk)
+1. We can refactor the web application using docker and simply deploy to AWS Elastic Beanstalk which automatically handles 
+the details of capacity provisioning, load balancing, scaling, and application health monitoring.
+
+Database Migration
+Plan to migrate to AWS IaaS (EC2 instance)
+1. At first, backup server. Then, create the EC2 instance based on the requirements.
+2. Deploy the instance in a virtual private cloud and subnet. Install the Microsoft SQL server in the instance.
+3. Migrate the data using the AWS Data Migration service.
+
+
+Local file system.
+Plan to migrate to AWS IaaS (Amazon EBS (Elastic Block Store))
+1. Use of lift and shift migration without change in the design.
+2. Use rsync, Robocopy, or AWS DataSync to copy files to EBS.
+
+Networking
+Plan to migrate to AWS cloud-native VPC.
+1. Use of VPC, subnet, security group ,a nd 
+
+4. 
 
