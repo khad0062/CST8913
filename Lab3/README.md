@@ -24,7 +24,7 @@ Plan to migrate to PaaS (AWS Elastic Beanstalk)
 the details of capacity provisioning, load balancing, scaling, and application health monitoring.
 
 Database Migration
-Plan to migrate to AWS IaaS (EC2 instance)
+Plan to migrate to AWS IaaS (EC2 instance) using Rehost migration type.
 1. At first, backup server. Then, create the EC2 instance based on the requirements.
 2. Deploy the instance in a virtual private cloud and subnet. Install the Microsoft SQL server in the instance.
 3. Migrate the data using the AWS Data Migration service.
@@ -37,7 +37,11 @@ Plan to migrate to AWS IaaS (Amazon EBS (Elastic Block Store))
 
 Networking
 Plan to migrate to AWS cloud-native VPC.
-1. Use of VPC, subnet, security group ,a nd 
+1. Use of VPC, subnet, security group, and Network ACLs.
+2. Create VPC for the Web application, database and Local file system. Allowing web application service, port to exposed to internet.
 
-4. 
+Email service:
+Plan to migrate to SaaS (Amazon WorkMail)
+1. Purchase the SaaS service and deploy with change in the domain and DNS access.
+
 
