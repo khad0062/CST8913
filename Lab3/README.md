@@ -44,4 +44,6 @@ Email service:
 Plan to migrate to SaaS (Amazon WorkMail)
 1. Purchase the SaaS service and deploy with change in the domain and DNS access.
 
+   ![Image](https://github.com/user-attachments/assets/75779d1c-7f2d-4711-8e42-ea749c07d39a)
+
 
