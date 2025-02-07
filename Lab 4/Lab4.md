@@ -38,8 +38,4 @@ To ensure high availability and minimize downtime, the solution implements:
 •	Configure automatic failover to the secondary region.
 •	Implement backup and disaster recovery policies to prevent data loss.
 
-   Use SQL replication strategies (e.g., Geo-Replication or Always On Availability Groups).
-
-  Configure automatic failover to the secondary region.
-
-  Implement backup and disaster recovery policies to prevent data loss.
+ 
