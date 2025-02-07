@@ -19,23 +19,26 @@ To ensure high availability and minimize downtime, the solution implements:
 
 
 ## Migration Steps
-1. Replication of Virtual Machines Across Regions
-Deploy WebServerVM and SQLVM in the primary region.
+1.	Replication of Virtual Machines Across Regions
 
-Use infrastructure-as-code (e.g., Terraform, ARM templates) to replicate VMs in the secondary region.
+•	Deploy WebServerVM and SQLVM in the primary region.
+•	Use infrastructure-as-code (e.g., Terraform, ARM templates) to replicate VMs in the secondary region.
+•	Configure auto-scaling to handle traffic changes dynamically.
 
-Configure auto-scaling to handle traffic changes dynamically.
+2.	Configuration of Load Balancer
 
-2. Configuration of Load Balancers
-Deploy a global load balancer to distribute traffic between primary and secondary regions.
+•	Deploy a global load balancer to distribute traffic between primary and secondary regions.
+•	Implement health checks to monitor WebServerVM instances.
+•	Set up region priority rules to direct traffic to the primary region unless it fails.
 
-Implement health checks to monitor WebServerVM instances.
+3.	Implementation of Database Replication and Failover
 
-Set up region priority rules to direct traffic to the primary region unless it fails.
+•	Use SQL replication strategies (e.g., Geo-Replication or Always On Availability Groups).
+•	Configure automatic failover to the secondary region.
+•	Implement backup and disaster recovery policies to prevent data loss.
 
-3. Implementation of Database Replication and Failover
-Use SQL replication strategies (e.g., Geo-Replication or Always On Availability Groups).
+   Use SQL replication strategies (e.g., Geo-Replication or Always On Availability Groups).
 
-Configure automatic failover to the secondary region.
+  Configure automatic failover to the secondary region.
 
-Implement backup and disaster recovery policies to prevent data loss.
+  Implement backup and disaster recovery policies to prevent data loss.
