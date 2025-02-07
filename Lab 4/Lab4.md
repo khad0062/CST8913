@@ -5,17 +5,17 @@
 ## Target Architecture
 To ensure high availability and minimize downtime, the solution implements:
 
-Redundancy: Each region hosts a replicated instance of WebServerVM and SQLVM.
+1. Redundancy: Each region hosts a replicated instance of WebServerVM and SQLVM.
 
-Load Balancing: A global load balancer directs traffic to the healthiest region.
+2. Load Balancing: A global load balancer directs traffic to the healthiest region.
 
-Failover Mechanism:
+3. Failover Mechanism:
 
-If the primary region fails, traffic is redirected to the secondary region.
+   If the primary region fails, traffic is redirected to the secondary region.
 
-SQLVM uses database replication with automatic failover to maintain consistency.
+    SQLVM uses database replication with automatic failover to maintain consistency.
 
-DNS services are configured to quickly update regional failover.
+     DNS services are configured to quickly update regional failover.
 
 
 ## Migration Steps
