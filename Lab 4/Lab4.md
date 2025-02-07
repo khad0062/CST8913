@@ -1,5 +1,6 @@
 # High-Level Design (HLD) for Multi-Region Deployment with Load Balancing
 ## Solution architecture diagram
+![HLD drawio](https://github.com/user-attachments/assets/23a45898-1aa7-4d00-8713-b8248a8a4827)
 
 
 ## Target Architecture
