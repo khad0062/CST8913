@@ -4,6 +4,8 @@
 2. Dependencies: Frontend directly calls backend APIs, which interact with the SQL Server database which is in same VM.
 2. Public load balancer is used to distribute the incoming traffic across the VMs, which have the same configurations. A public load balancer maps the public IP and port of incoming traffic to the private IP and port of the VM.
 ### Monolithic architecture Diagram
+![Monlithic architecture](https://github.com/user-attachments/assets/ddadb7d0-0c8b-41a2-b79f-23748cbc8430)
+
 
 
 
