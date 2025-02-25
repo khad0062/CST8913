@@ -43,9 +43,9 @@
 2. Configure Log Analytics to collect application logs.
 3. Set up alerts for performance issues and failures.
 
+### Refactored architecture diagram
 
-
-
+![Refactored architecture](https://github.com/user-attachments/assets/54279d9b-614c-4d37-947b-376bbe09d83c)
 
 
 
